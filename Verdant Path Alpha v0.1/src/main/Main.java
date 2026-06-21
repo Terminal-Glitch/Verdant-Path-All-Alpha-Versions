@@ -7,6 +7,10 @@ public class Main {
 
 								// Our game could purely be made in java
 								JFrame window = new JFrame();
+
+								ImageIcon icon = new ImageIcon("src/res/icon/icon.png");
+								window.setIconImage(icon.getImage());
+
 								window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 								window.setResizable(false); // Window can't be resized
 								window.setTitle("Verdant Path - Alpha v0.1");
