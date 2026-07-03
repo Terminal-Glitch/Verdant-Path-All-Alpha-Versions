@@ -13,7 +13,7 @@ public class Main {
 
 								window.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 								window.setResizable(false); // Window can't be resized
-								window.setTitle("Verdant Path - Alpha v0.1");
+								window.setTitle("Verdant Path - Alpha v0.2");
 
 								GamePanel gamePanel = new GamePanel(); // We have already set the preferred size in GamePanel.java
 								window.add(gamePanel);
